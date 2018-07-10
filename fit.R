@@ -1,6 +1,5 @@
-setwd("C:\\home\\CADIGAN\\GradProgram\\2018\\F6004\\week8\\F3LNO_SURBA")
-
-source("C:\\home\\CADIGAN\\GradProgram\\2018\\F6004\\week2\\spay.txt")
+#set working directory in source file location, work ONLY in Rstudio
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path));getwd()
  
 require(lattice)
 library(latticeExtra)
